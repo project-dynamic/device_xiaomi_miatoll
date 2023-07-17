@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_miatoll.mk
+    $(LOCAL_DIR)/cherish_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_miatoll-user \
-    pixys_miatoll-userdebug \
-    pixys_miatoll-eng
+    cherish_miatoll-user \
+    cherish_miatoll-userdebug \
+    cherish_miatoll-eng
