@@ -16,11 +16,11 @@
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
 # Inherit some common stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-PRODUCT_NAME := aosp_miatoll
+PRODUCT_NAME := evolution_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := SM6250
@@ -35,4 +35,8 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_USES_PICO_GAPPS := true
+TARGET_USES_MIUI_CAMERA := true
+TARGET_ENABLE_BLUR := true
+

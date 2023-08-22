@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_miatoll.mk
+    $(LOCAL_DIR)/evolution_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_miatoll-user \
-    aosp_miatoll-userdebug \
-    aosp_miatoll-eng
+    evolution_miatoll-user \
+    evolution_miatoll-userdebug \
+    evolution_miatoll-eng
