@@ -532,3 +532,6 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit proprietary targets
 $(call inherit-product, vendor/xiaomi/miatoll/miatoll-vendor.mk)
+
+# Inherit Viper4Android
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
