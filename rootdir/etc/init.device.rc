@@ -1,4 +1,4 @@
-service vendor.thermal-engine /vendor/bin/thermal-engine
+service vendor.thermal-engine /vendor/bin/thermal-engine -c /vendor/etc/thermal-engine-${ro.product.vendor.device}.conf
     class main
     user root
     group root
@@ -7,10 +7,6 @@ service vendor.thermal-engine /vendor/bin/thermal-engine
     socket thermal-recv-passive-client stream 0660 system oem_2907
     socket thermal-send-rule stream 0660 system oem_2907
     disabled
-
-on boot && property:ro.product.vendor.device=*
-    mount none /vendor/etc/thermal-engine-map-${ro.product.vendor.device}.conf /vendor/etc/thermal-engine-map.conf bind
-    start vendor.thermal-engine
 
 service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     override
