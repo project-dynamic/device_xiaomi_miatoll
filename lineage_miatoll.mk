@@ -61,4 +61,4 @@ TARGET_DEFAULT_ADB_ENABLED := true
 
 # Maintainer
 ALPHA_BUILD_TYPE := Official
-ALPHA_MAINTAINER := Ihsan&Atharva
+ALPHA_MAINTAINER := Ihsan & Atharva
