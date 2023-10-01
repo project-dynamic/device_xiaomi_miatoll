@@ -16,11 +16,11 @@
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
 # Inherit some common stuff
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-PRODUCT_NAME := evolution_miatoll
+PRODUCT_NAME := lineage_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := SM6250
