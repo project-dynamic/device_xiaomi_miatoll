@@ -18,6 +18,10 @@ $(call inherit-product, device/xiaomi/sm6250-common/common.mk)
 # Inherit proprietary targets
 $(call inherit-product-if-exists, vendor/xiaomi/miatoll/miatoll-vendor.mk)
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # APN
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/apns-conf-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
