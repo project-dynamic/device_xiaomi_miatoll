@@ -1,4 +1,4 @@
-# Copyright (C) 2023 PixysOS
+# Copyright (C) 2023 superiorOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_miatoll.mk
+    $(LOCAL_DIR)/superior_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_miatoll-user \
-    pixys_miatoll-userdebug \
-    pixys_miatoll-eng
+    superior_miatoll-user \
+    superior_miatoll-userdebug \
+    superior_miatoll-eng
